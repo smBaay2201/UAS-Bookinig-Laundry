@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCE8EA74-8AE0-4DDC-B5B2-0896ADCF0679}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BoDi, Version=1.5.0.0, Culture=neutral, PublicKeyToken=ff7cd5ea2744b496, processorArchitecture=MSIL">
+      <HintPath>..\packages\BoDi.1.5.0\lib\net45\BoDi.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Gherkin, Version=19.0.3.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851, processorArchitecture=MSIL">
+      <HintPath>..\packages\Gherkin.19.0.3\lib\net45\Gherkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecFlow.Internal.Json.1.0.8\lib\net45\SpecFlow.Internal.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecFlow.3.9.74\lib\net461\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3EditProfilecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3EditProfilecs.Designer.cs">
+      <DependentUpon>Form3EditProfilecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckOut.Designer.cs">
+      <DependentUpon>FormCheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomers.Designer.cs">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDaftar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDaftar.Designer.cs">
+      <DependentUpon>FormDaftar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLupaPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLupaPassword.Designer.cs">
+      <DependentUpon>FormLupaPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMyOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMyOrder.Designer.cs">
+      <DependentUpon>FormMyOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewOderSetrika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewOderSetrika.Designer.cs">
+      <DependentUpon>FormNewOderSetrika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewOrderExpres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewOrderExpres.Designer.cs">
+      <DependentUpon>FormNewOrderExpres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewOrderSepatu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewOrderSepatu.Designer.cs">
+      <DependentUpon>FormNewOrderSepatu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrder.Designer.cs">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPopUpProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPopUpProfile.Designer.cs">
+      <DependentUpon>FormPopUpProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FromNewOrderReguler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromNewOrderReguler.Designer.cs">
+      <DependentUpon>FromNewOrderReguler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayanan.Designer.cs">
+      <DependentUpon>FormLayanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3EditProfilecs.resx">
+      <DependentUpon>Form3EditProfilecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheckOut.resx">
+      <DependentUpon>FormCheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomers.resx">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDaftar.resx">
+      <DependentUpon>FormDaftar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLupaPassword.resx">
+      <DependentUpon>FormLupaPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMyOrder.resx">
+      <DependentUpon>FormMyOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewOderSetrika.resx">
+      <DependentUpon>FormNewOderSetrika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewOrderExpres.resx">
+      <DependentUpon>FormNewOrderExpres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewOrderSepatu.resx">
+      <DependentUpon>FormNewOrderSepatu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrder.resx">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPopUpProfile.resx">
+      <DependentUpon>FormPopUpProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromNewOrderReguler.resx">
+      <DependentUpon>FromNewOrderReguler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayanan.resx">
+      <DependentUpon>FormLayanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOOKING LOUNDRY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1-01 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\#purrfecttale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOOKING LOUNDRY %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Layanan Kami.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dari cuci biasa hingga setrika, kami siap melayani Anda dengan berbagai pilihan layanan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 3 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Group 5.png" />
+    <None Include="Resources\My Order.png" />
+    <None Include="Resources\Group 87.png" />
+    <None Include="Resources\Customers.png" />
+    <None Include="Resources\Group 86.png" />
+    <None Include="Resources\Group 85.png" />
+    <None Include="Resources\Group 84.png" />
+    <None Include="Resources\Group 82.png" />
+    <None Include="Resources\Order.png" />
+    <None Include="Resources\Group 81.png" />
+    <None Include="Resources\Ellipse 3.png" />
+    <None Include="Resources\Group 79.png" />
+    <None Include="Resources\Group 78.png" />
+    <None Include="Resources\Check Out.png" />
+    <None Include="Resources\Group 76.png" />
+    <None Include="Resources\Group 74.png" />
+    <None Include="Resources\Group 71.png" />
+    <None Include="Resources\Group 72.png" />
+    <None Include="Resources\Group 73.png" />
+    <None Include="Resources\Group 70.png" />
+    <None Include="Resources\Group 69.png" />
+    <None Include="Resources\Group 68.png" />
+    <None Include="Resources\Rectangle 35.png" />
+    <None Include="Resources\laundry_7969369.png" />
+    <None Include="Resources\Group 67.png" />
+    <None Include="Resources\Group 66.png" />
+    <None Include="Resources\Group 65.png" />
+    <None Include="Resources\Group 64.png" />
+    <None Include="Resources\Group 63.png" />
+    <None Include="Resources\Group 61.png" />
+    <None Include="Resources\Group 60 %281%29.png" />
+    <None Include="Resources\Group 60.png" />
+    <None Include="Resources\Group 59.png" />
+    <None Include="Resources\Group 58 %281%29.png" />
+    <None Include="Resources\Group 57 %281%29.png" />
+    <None Include="Resources\Group 58.png" />
+    <None Include="Resources\Group 57.png" />
+    <None Include="Resources\back 1.png" />
+    <None Include="Resources\Selected.png" />
+    <None Include="Resources\listorder 1.png" />
+    <None Include="Resources\Stock_Image__Objects-removebg-preview 1.png" />
+    <None Include="Resources\Group 56.png" />
+    <None Include="Resources\Group 51.png" />
+    <None Include="Resources\Group 52.png" />
+    <None Include="Resources\Group 54.png" />
+    <None Include="Resources\Group 55.png" />
+    <None Include="Resources\Rectangle 18.png" />
+    <None Include="Resources\Group 11.png" />
+    <None Include="Resources\Group 12.png" />
+    <None Include="Resources\Dashboard Layout.png" />
+    <None Include="Resources\Customer.png" />
+    <None Include="Resources\Shopping Trolley.png" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\Male User.png" />
+    <None Include="Resources\Export.png" />
+    <None Include="Resources\Group 50.png" />
+    <None Include="Resources\Group 9.png" />
+    <None Include="Resources\Pembayaran.png" />
+    <None Include="Resources\Billed to.png" />
+    <None Include="Resources\Group 8.png" />
+    <None Include="Resources\Rectangle 21.png" />
+    <None Include="Resources\Group 6-1.png" />
+    <None Include="Resources\Group 6.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\SpecFlow.3.9.74\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.3.9.74\build\SpecFlow.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SpecFlow.3.9.74\build\SpecFlow.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.3.9.74\build\SpecFlow.targets'))" />
+  </Target>
+</Project>
