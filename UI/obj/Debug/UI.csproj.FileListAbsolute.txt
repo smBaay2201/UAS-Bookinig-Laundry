@@ -49,3 +49,41 @@ D:\pemrograman lanjut\final project UI\UI\UI\obj\Debug\UI.FormDaftar.resources
 D:\pemrograman lanjut\final project UI\UI\UI\obj\Debug\UI.FormLupaPassword.resources
 D:\pemrograman lanjut\final project UI\UI\UI\obj\Debug\UI.FormCustomers.resources
 D:\pemrograman lanjut\final project UI\UI\UI\obj\Debug\UI.FormMyOrder.resources
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe.config
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\UI.pdb
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\BoDi.dll
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\FontAwesome.Sharp.dll
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\Gherkin.dll
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\Guna.UI2.dll
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\SpecFlow.Internal.Json.dll
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\System.ValueTuple.dll
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\TechTalk.SpecFlow.dll
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\BoDi.pdb
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\Gherkin.xml
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\System.ValueTuple.xml
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\TechTalk.SpecFlow.pdb
+D:\projects\UAS-Bookinig-Laundry\UI\bin\Debug\TechTalk.SpecFlow.xml
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Form1.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Form2.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Form3EditProfilecs.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormAdmin.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormCheckOut.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormCustomers.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormDaftar.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormLupaPassword.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormMyOrder.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormNewOderSetrika.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormNewOrderExpres.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormNewOrderSepatu.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormOrder.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormPopUpProfile.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FromNewOrderReguler.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormLayanan.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Properties.Resources.resources
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CopyComplete
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.exe
+D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.pdb
