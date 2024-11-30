@@ -87,6 +87,7 @@ D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CopyComplete
 D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.exe
 D:\projects\UAS-Bookinig-Laundry\UI\obj\Debug\UI.pdb
+<<<<<<< HEAD
 C:\Users\asus\Downloads\clone git\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe.config
 C:\Users\asus\Downloads\clone git\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe
 C:\Users\asus\Downloads\clone git\UAS-Bookinig-Laundry\UI\bin\Debug\UI.pdb
@@ -157,3 +158,43 @@ C:\Users\asus\Downloads\clone git\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.Co
 C:\Users\asus\Downloads\clone git\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Users\asus\Downloads\clone git\UAS-Bookinig-Laundry\UI\obj\Debug\UI.exe
 C:\Users\asus\Downloads\clone git\UAS-Bookinig-Laundry\UI\obj\Debug\UI.pdb
+=======
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe.config
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\UI.pdb
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\BoDi.dll
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\Gherkin.dll
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\Guna.UI2.dll
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\SpecFlow.Internal.Json.dll
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\System.ValueTuple.dll
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\BoDi.pdb
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\Gherkin.xml
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\System.ValueTuple.xml
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\TechTalk.SpecFlow.pdb
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\bin\Debug\TechTalk.SpecFlow.xml
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Form1.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Form2.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Form3EditProfilecs.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormAdmin.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormCheckOut.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormCustomers.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormDaftar.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormLupaPassword.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormMyOrder.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormNewOderSetrika.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormNewOrderExpres.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormNewOrderSepatu.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormOrder.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormPopUpProfile.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FromNewOrderReguler.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.FormLayanan.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.exe
+C:\Users\Drs. BADRUN\Downloads\git\UI\UAS-Bookinig-Laundry\UI\obj\Debug\UI.pdb
+>>>>>>> 75ea26db35bb7893564e4d9871f5d5721c8c86ff
