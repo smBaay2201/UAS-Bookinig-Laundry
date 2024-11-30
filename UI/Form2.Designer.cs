@@ -75,6 +75,7 @@
             this.guna2Button6.Size = new System.Drawing.Size(47, 51);
             this.guna2Button6.TabIndex = 7;
             this.guna2Button6.UseTransparentBackground = true;
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button5
             // 
