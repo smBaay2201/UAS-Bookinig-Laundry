@@ -32,25 +32,25 @@
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.forgotpswd = new System.Windows.Forms.Label();
             this.rememberme = new System.Windows.Forms.Label();
             this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pass = new Guna.UI2.WinForms.Guna2TextBox();
             this.nama = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pass = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2Panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2DragControl1
@@ -77,6 +77,58 @@
             this.guna2Panel1.Size = new System.Drawing.Size(741, 693);
             this.guna2Panel1.TabIndex = 2;
             // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2ControlBox2.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(643, 15);
+            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(39, 36);
+            this.guna2ControlBox2.TabIndex = 3;
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(689, 15);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(36, 36);
+            this.guna2ControlBox1.TabIndex = 2;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::UI.Properties.Resources.logo_laundry;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(249, 15);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(363, 78);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = global::UI.Properties.Resources.mesin_cuci;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(75, 101);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(607, 554);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 1;
+            this.guna2PictureBox2.TabStop = false;
+            // 
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.SystemColors.Control;
@@ -94,7 +146,6 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(540, 693);
             this.guna2Panel2.TabIndex = 3;
-            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // guna2Button2
             // 
@@ -120,7 +171,29 @@
             this.guna2Button2.TabIndex = 7;
             this.guna2Button2.Text = "DAFTAR";
             this.guna2Button2.UseTransparentBackground = true;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.Location = new System.Drawing.Point(148, 481);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(133, 48);
+            this.guna2Button1.TabIndex = 6;
+            this.guna2Button1.Text = "MASUK";
+            this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // forgotpswd
             // 
@@ -150,7 +223,6 @@
             this.rememberme.Size = new System.Drawing.Size(95, 19);
             this.rememberme.TabIndex = 2;
             this.rememberme.Text = "Remeber me";
-            this.rememberme.Click += new System.EventHandler(this.label1_Click);
             // 
             // guna2ToggleSwitch1
             // 
@@ -167,129 +239,6 @@
             this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
-            // 
-            // guna2ShadowForm1
-            // 
-            this.guna2ShadowForm1.BorderRadius = 8;
-            this.guna2ShadowForm1.ShadowColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2ShadowForm1.TargetForm = this;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.Location = new System.Drawing.Point(148, 481);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(133, 48);
-            this.guna2Button1.TabIndex = 6;
-            this.guna2Button1.Text = "MASUK";
-            this.guna2Button1.UseTransparentBackground = true;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = global::UI.Properties.Resources.mesin_cuci;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(75, 101);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(607, 554);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 1;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
-            // 
-            // nama
-            // 
-            this.nama.Animated = true;
-            this.nama.BorderColor = System.Drawing.Color.Transparent;
-            this.nama.BorderRadius = 15;
-            this.nama.BorderThickness = 0;
-            this.nama.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nama.DefaultText = "";
-            this.nama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nama.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(244)))));
-            this.nama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.nama.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.nama.ForeColor = System.Drawing.Color.Black;
-            this.nama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.nama.Location = new System.Drawing.Point(148, 302);
-            this.nama.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
-            this.nama.Name = "nama";
-            this.nama.PasswordChar = '\0';
-            this.nama.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.nama.PlaceholderText = "NAMA";
-            this.nama.SelectedText = "";
-            this.nama.Size = new System.Drawing.Size(303, 38);
-            this.nama.TabIndex = 2;
-            this.nama.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Image = global::UI.Properties.Resources.animenyuci;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(-143, -201);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(783, 1058);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 1;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
-            // 
-            // guna2ControlBox1
-            // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(689, 15);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(36, 36);
-            this.guna2ControlBox1.TabIndex = 2;
-            // 
-            // guna2ControlBox2
-            // 
-            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.guna2ControlBox2.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2ControlBox2.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(643, 15);
-            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.Size = new System.Drawing.Size(39, 36);
-            this.guna2ControlBox2.TabIndex = 3;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::UI.Properties.Resources.logo_laundry;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(249, 15);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(363, 78);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
-            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // pass
             // 
@@ -319,6 +268,51 @@
             this.pass.TabIndex = 3;
             this.pass.UseSystemPasswordChar = true;
             // 
+            // nama
+            // 
+            this.nama.Animated = true;
+            this.nama.BorderColor = System.Drawing.Color.Transparent;
+            this.nama.BorderRadius = 15;
+            this.nama.BorderThickness = 0;
+            this.nama.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nama.DefaultText = "";
+            this.nama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nama.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(244)))));
+            this.nama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nama.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.nama.ForeColor = System.Drawing.Color.Black;
+            this.nama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nama.Location = new System.Drawing.Point(148, 302);
+            this.nama.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
+            this.nama.Name = "nama";
+            this.nama.PasswordChar = '\0';
+            this.nama.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.nama.PlaceholderText = "NAMA";
+            this.nama.SelectedText = "";
+            this.nama.Size = new System.Drawing.Size(303, 38);
+            this.nama.TabIndex = 2;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.Image = global::UI.Properties.Resources.animenyuci;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(-143, -201);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(783, 1058);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox3.TabIndex = 1;
+            this.guna2PictureBox3.TabStop = false;
+            // 
+            // guna2ShadowForm1
+            // 
+            this.guna2ShadowForm1.BorderRadius = 8;
+            this.guna2ShadowForm1.ShadowColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2ShadowForm1.TargetForm = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -332,11 +326,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
