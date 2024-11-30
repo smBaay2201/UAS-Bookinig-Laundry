@@ -279,6 +279,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Group 5.png" />
+    <None Include="Resources\Orderan %281%29.png" />
+    <None Include="Resources\Group 26.png" />
+    <None Include="Resources\Group 25.png" />
+    <None Include="Resources\Group 24.png" />
+    <None Include="Resources\Group 231.png" />
+    <None Include="Resources\Group 23.png" />
+    <None Include="Resources\Rectangle 23 %281%29.png" />
+    <None Include="Resources\Dashboard %281%29.png" />
     <None Include="Resources\My Order.png" />
     <None Include="Resources\Group 87.png" />
     <None Include="Resources\Customers.png" />
