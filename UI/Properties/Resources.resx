@@ -118,62 +118,44 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\My Order.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add to card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 57 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Shopping_Trolley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shopping Trolley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="animenyuci" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\#purrfecttale.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="backgrnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="batal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ellipse_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ellipse 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bayar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Billed_to" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Billed to.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mesin cuci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-1-01 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BOOKING_LOUNDRY__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BOOKING LOUNDRY (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="reguler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="byr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Check_Out" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Check Out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="credit card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuci bayar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuci expres" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dashboard_Layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dashboard Layout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cuci reguler" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cuci sepatu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Group 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cuci bayar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="My Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selamat datangg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dashboard (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dashboard (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cucii bayarr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 6-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,68 +163,23 @@
   <data name="Customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Customer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dari_cuci_biasa_hingga_setrika__kami_siap_melayani_Anda_dengan_berbagai_pilihan_layanan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dari cuci biasa hingga setrika, kami siap melayani Anda dengan berbagai pilihan layanan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dashboard_Layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dashboard Layout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="e wallet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edit profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edit user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ellipse_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ellipse 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="expres" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 3 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="expres new order" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="get" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group_60__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 60 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="laundry_7969369" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\laundry_7969369.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="layanan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Layanan_Kami" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Layanan Kami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Check_Out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Check Out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="listorder_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\listorder 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="to payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo laundry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BOOKING LOUNDRY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,82 +187,169 @@
   <data name="Male_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Male User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mesin cuci" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled-1-01 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="my list" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rectangle 23 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 23 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="layanan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nama" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="new Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Order.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="p" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pembayaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pembayaran.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="process" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="reguler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ringkasan pembayaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="selamat datangg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sepatu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sepatu new order" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="setrika" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="setrika new order" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Shopping_Trolley" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Shopping Trolley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Order.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Stock_Image__Objects_removebg_preview_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Stock_Image__Objects-removebg-preview 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="strika" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="credit card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Table order" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animenyuci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\#purrfecttale.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group_60__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 60 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expres" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 3 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ringkasan pembayaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expres new order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backgrnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add to card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 57 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Layanan_Kami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Layanan Kami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="text order" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="to payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="batal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setrika new order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\My Order.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="byr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e wallet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuci sepatu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Group 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuci expres" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="process" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dari_cuci_biasa_hingga_setrika__kami_siap_melayani_Anda_dengan_berbagai_pilihan_layanan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dari cuci biasa hingga setrika, kami siap melayani Anda dengan berbagai pilihan layanan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setrika" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Billed_to" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Billed to.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strika" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOOKING_LOUNDRY__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOOKING LOUNDRY (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="listorder_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\listorder 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="get" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pembayaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pembayaran.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sepatu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="my list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Orderan (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orderan (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
