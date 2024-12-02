@@ -243,13 +243,14 @@ namespace UI
 
         private void guna2PictureBox13_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FormPopUpProfile Form = new FormPopUpProfile();
-            Form.ShowDialog();
+           // this.Hide();
+          //  FormProfile Form = new FormProfile();
+          //  Form.ShowDialog();
         }
 
         private void guna2PictureBox6_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Apakah anda ingin logout?", "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             this.Hide();
             Form1 Form = new Form1();
             Form.ShowDialog();

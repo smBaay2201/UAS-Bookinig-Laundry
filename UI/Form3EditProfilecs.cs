@@ -19,9 +19,9 @@ namespace UI
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
-            FormPopUpProfile Form = new FormPopUpProfile();
-            Form.ShowDialog();
+           this.Hide();
+           FormPopUpProfile Form = new FormPopUpProfile();
+           Form.ShowDialog();
         }
     }
 }

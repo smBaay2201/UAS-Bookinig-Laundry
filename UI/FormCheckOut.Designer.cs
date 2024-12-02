@@ -176,6 +176,7 @@
             this.guna2PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox13.TabIndex = 36;
             this.guna2PictureBox13.TabStop = false;
+            this.guna2PictureBox13.Click += new System.EventHandler(this.guna2PictureBox13_Click);
             // 
             // guna2PictureBox15
             // 
