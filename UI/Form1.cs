@@ -22,7 +22,7 @@ namespace UI
 
         private void TestDatabaseConnection()
         {
-            string mySqlConn = "server=127.0.0.1; database=db_laundry; user=root; password=";
+            string mySqlConn = "server=localhost; database=db_laundry; user=root; password=";
             MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
 
             try

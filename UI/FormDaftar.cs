@@ -25,6 +25,7 @@ namespace UI
             string alamat = guna2TextBox2.Text;
             string password = guna2TextBox3.Text;
 
+
             // Koneksi ke database
             string mySqlConn = "server=127.0.0.1; database=db_laundry; user=root; password=";
             MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
