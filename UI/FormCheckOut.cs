@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,9 +35,17 @@ namespace UI
 
         private void guna2PictureBox11_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Apakah anda ingin logout?", "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             this.Hide();
             Form1 Form = new Form1();
             Form.ShowDialog();
+        }
+
+        private void guna2PictureBox13_Click(object sender, EventArgs e)
+        {
+           this.Hide();
+            FormPopUpProfile From = new FormPopUpProfile();
+            From.ShowDialog();
         }
     }
 }

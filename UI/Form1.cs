@@ -54,7 +54,7 @@ namespace UI
             MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
             try
             {
-                string query = "SELECT COUNT(*) FROM users WHERE username = @username AND password = @password";
+                string query = "SELECT COUNT(*) FROM tb_user WHERE Nama = @username AND Password = @password";
                 MySqlCommand cmd = new MySqlCommand(query, mySqlConnection);
                 cmd.Parameters.AddWithValue("@username", username);
                 cmd.Parameters.AddWithValue("@password", password);
@@ -71,11 +71,14 @@ namespace UI
                     Form2 Form = new Form2();
                     Form.ShowDialog();
                 }
-
+                else
+                {
+                    MessageBox.Show("Username atau password salah!");
+                }
             }
-            catch
-            { 
-
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
             }
 
         }

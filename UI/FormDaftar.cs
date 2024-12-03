@@ -25,55 +25,47 @@ namespace UI
             string alamat = guna2TextBox2.Text;
             string password = guna2TextBox3.Text;
 
-            string mySqlConn = "server=localhost; database=db_laundry; user=root; password=";
+
+            // Koneksi ke database
+            string mySqlConn = "server=127.0.0.1; database=db_laundry; user=root; password=";
             MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
 
             try
             {
-
-                int newUserId = 0;
-                string queryGetLastId = "SELECT last_user_id FROM user_id_counter LIMIT 1";
-                MySqlCommand cmdGetLastId = new MySqlCommand(queryGetLastId, mySqlConnection);
-                mySqlConnection.Open();
-                MySqlDataReader reader = cmdGetLastId.ExecuteReader();
-
-                if (reader.Read())
-                {
-                    newUserId = reader.GetInt32("last_user_id") + 1; // Menambahkan 1 ke ID terakhir
-                }
-                else
-                {
-                    newUserId = 1; // Jika tidak ada data, mulai dari 1
-                }
-                reader.Close();
-
-                string queryInsert = "INSERT INTO user (user_id, Nama, No_HP, Alamat, Password) VALUES (@userId, @username, @nohp, @alamat, @password)";
+                // Query untuk insert data
+                string queryInsert = "INSERT INTO tb_user (Nama, No_tlp, Alamat, Password) VALUES (@username, @notlp, @alamat, @password)";
                 MySqlCommand cmdInsert = new MySqlCommand(queryInsert, mySqlConnection);
-                cmdInsert.Parameters.AddWithValue("@userId", newUserId);
+
+                // Tambahkan parameter
                 cmdInsert.Parameters.AddWithValue("@username", username);
-                cmdInsert.Parameters.AddWithValue("@nohp", nohp);
+                cmdInsert.Parameters.AddWithValue("@notlp", nohp);
                 cmdInsert.Parameters.AddWithValue("@alamat", alamat);
                 cmdInsert.Parameters.AddWithValue("@password", password);
 
+                mySqlConnection.Open();
                 cmdInsert.ExecuteNonQuery();
-
-                // Langkah 3: Update user_id terakhir di tabel user_id_counter
-                string queryUpdateCounter = "UPDATE user_id_counter SET last_user_id = @newUserId";
-                MySqlCommand cmdUpdateCounter = new MySqlCommand(queryUpdateCounter, mySqlConnection);
-                cmdUpdateCounter.Parameters.AddWithValue("@newUserId", newUserId);
-                cmdUpdateCounter.ExecuteNonQuery();
-
                 mySqlConnection.Close();
 
+                // Beri notifikasi sukses
                 MessageBox.Show("Pendaftaran berhasil!");
             }
             catch (Exception ex)
             {
+                // Tangani error
                 MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
             }
+
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(nohp) || string.IsNullOrWhiteSpace(alamat) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Semua data harus diisi!");
+                return;
+            }
+
+
+            // Tutup form pendaftaran dan buka form login
             this.Hide();
-            Form1 Form = new Form1();
-            Form.ShowDialog();
+            Form1 form = new Form1();
+            form.ShowDialog();
         }
     }
 }

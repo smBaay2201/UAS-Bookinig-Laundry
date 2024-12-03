@@ -173,6 +173,7 @@
             this.Name = "FormPopUpProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPopUpProfile";
+            this.Load += new System.EventHandler(this.FormPopUpProfile_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnProfile)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
