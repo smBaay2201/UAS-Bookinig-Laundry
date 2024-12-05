@@ -17,73 +17,84 @@ namespace UI
         public FromNewOrderReguler()
         {
             InitializeComponent();
-            GetLoggedInUserId();
         }
 
         private decimal CalculateHarga(float berat)
         {
-            decimal hargaPerKg = 10000; // Contoh harga per kg
+            decimal hargaPerKg = 4000; // Contoh harga per kg
             return (decimal)berat * hargaPerKg;
         }
 
         // Contoh fungsi untuk mendapatkan ID user yang login
         private int GetLoggedInUserId()
         {
-            // Anda bisa mengatur userId saat login dan simpan di variabel global/session
-            return 1; // Contoh, user ID 1
+            if (CurrentUser.UserId > 0)
+            {
+                return CurrentUser.UserId;
+            }
+            else
+            {
+                MessageBox.Show("User belum login. Harap login terlebih dahulu.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                throw new InvalidOperationException("User belum login.");
+            }
         }
 
         private void FormNewOrderReguler_Load(object sender, EventArgs e)
         {
-            dtpTglSelesai.Value = DateTime.Now.AddDays(3); // Tanggal selesai default 3 hari setelah hari ini
+            
         }
 
         private void guna2PictureBox3_Click_1(object sender, EventArgs e)
         {
-            string customerName = customername.Text;  // Sesuaikan dengan nama kontrol TextBox
+            // Validasi input dari TextBox
+            if (!float.TryParse(txtBerat.Text, out float berat) || berat <= 0)
+            {
+                MessageBox.Show("Berat harus berupa angka positif.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(service.Text))
+            {
+                MessageBox.Show("Layanan harus diisi.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             string serviceType = service.Text;
-            float berat = float.Parse(txtBerat.Text);    // Pastikan validasi angka dilakukan
-            string alamatt = alamat.Text;
-            decimal harga = CalculateHarga(berat); // Fungsi untuk menghitung harga
-            int idBooking = 1;
-
-            // Ambil tanggal selesai dari DateTimePicker
-            DateTime tglSelesai = dtpTglSelesai.Value; // Tanggal selesai yang dipilih oleh user
-
-            // Koneksi database
-            string mySqlConn = "server=localhost; database=db_laundry; user=root; password=";
-            MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
+            decimal harga = CalculateHarga(berat);
+            DateTime tglBooking = DateTime.Now;
+            DateTime tglSelesai = tglBooking.AddDays(3);
 
             try
             {
-                // Query untuk insert data ke tb_booking
-                string query = "INSERT INTO tb_booking (jml_cucian, service_type, tgl_Booking, tgl_selesai, ttl_Harga, User_id, id_Booking) " +
-                               "VALUES (@berat, @serviceType, @tglBooking, @tglSelesai, @harga, @userId, @idBooking)";
+                int userId = GetLoggedInUserId(); // Dapatkan ID user dari sesi login
 
-                MySqlCommand cmd = new MySqlCommand(query, mySqlConnection);
-                cmd.Parameters.AddWithValue("@idBooking", idBooking);
-                cmd.Parameters.AddWithValue("@berat", berat);
-                cmd.Parameters.AddWithValue("@serviceType", serviceType);
-                cmd.Parameters.AddWithValue("@tglBooking", DateTime.Now); // Tanggal booking (otomatis hari ini)
-                cmd.Parameters.AddWithValue("@tglSelesai", tglSelesai);   // Tanggal selesai (dari user)
-                cmd.Parameters.AddWithValue("@harga", harga);
-                cmd.Parameters.AddWithValue("@userId", GetLoggedInUserId()); // Fungsi untuk mendapatkan user id aktif
+                // Koneksi ke database
+                string mySqlConn = "server=localhost; database=db_laundry; user=root; password=";
+                using (MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn))
+                {
+                    string query = "INSERT INTO tb_booking (jml_cucian, service_type, tgl_Booking, tgl_selesai, ttl_Harga, User_id) " +
+                                   "VALUES (@berat, @serviceType, @tglBooking, @tglSelesai, @harga, @userId)";
+                    using (MySqlCommand cmd = new MySqlCommand(query, mySqlConnection))
+                    {
+                        // Bind parameter untuk menghindari SQL Injection
+                        cmd.Parameters.AddWithValue("@berat", berat);
+                        cmd.Parameters.AddWithValue("@serviceType", serviceType);
+                        cmd.Parameters.AddWithValue("@tglBooking", tglBooking);
+                        cmd.Parameters.AddWithValue("@tglSelesai", tglSelesai);
+                        cmd.Parameters.AddWithValue("@harga", harga);
+                        cmd.Parameters.AddWithValue("@userId", userId);
 
-                mySqlConnection.Open();
-                cmd.ExecuteNonQuery();
-                // Tampilkan popup sukses
-                MessageBox.Show("Pesanan berhasil dibuat! Lanjut ke pembayaran.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        // Buka koneksi dan eksekusi query
+                        mySqlConnection.Open();
+                        cmd.ExecuteNonQuery();
+                    }
+                }
 
-                // Navigasi ke halaman pembayaran atau lainnya
+                MessageBox.Show("Pesanan berhasil dibuat!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                // Tampilkan error jika gagal
                 MessageBox.Show($"Terjadi kesalahan: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                mySqlConnection.Close();
             }
         }
         private void proses_FormClosed(object sender, FormClosedEventArgs e)
@@ -94,45 +105,36 @@ namespace UI
         private void btnLayanan_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormLayanan Form = new FormLayanan();
-            Form.ShowDialog();
+            using (FormLayanan form = new FormLayanan())
+            {
+                form.ShowDialog();
+            }
         }
 
         private void guna2PictureBox4_Click(object sender, EventArgs e)
         {
             // Ambil input dari TextBox
-            string customerName = customername.Text;
-            string beratText = txtBerat.Text;
-            string alamatt = alamat.Text;
+            string customerName = customername.Text.Trim();
+            string beratText = txtBerat.Text.Trim();
+            string alamatText = alamat.Text.Trim();
 
             // Validasi input
-            if (string.IsNullOrWhiteSpace(customerName) ||
-                string.IsNullOrWhiteSpace(beratText) ||
-                string.IsNullOrWhiteSpace(alamatt) ||
-                !int.TryParse(beratText, out int berat))
+            if (string.IsNullOrWhiteSpace(customerName) || string.IsNullOrWhiteSpace(beratText) || string.IsNullOrWhiteSpace(alamatText) || !float.TryParse(beratText, out float berat) || berat <= 0)
             {
-                MessageBox.Show("Semua field harus diisi dengan valid!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Semua field harus diisi dengan benar!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Harga per kilogram
-            int hargaPerKg = 4000;
-
             // Hitung total harga
-            int totalHarga = berat * hargaPerKg;
+            decimal totalHarga = CalculateHarga(berat);
 
-            // Tampilkan data di kotak kanan
+            // Tampilkan data di tampilan kanan
             namatampil.Text = customerName;
-            berattampil.Text = berat + " ";
-            alamattampil.Text = alamatt;
+            berattampil.Text = berat + " kg";
+            alamattampil.Text = alamatText;
 
             // Tampilkan total harga di kotak putih
-            txttotalHarga.Text = "Rp. " + totalHarga.ToString("N0"); // Format angka dengan ribuan (misal: Rp. 5,000)
-
-            // Kosongkan input di kotak kiri untuk entri berikutnya
-            customername.Clear();
-
-            alamat.Clear();
+            txttotalHarga.Text = "Rp. " + totalHarga.ToString("N0"); // Format angka dengan ribuan
         }
     }
 }

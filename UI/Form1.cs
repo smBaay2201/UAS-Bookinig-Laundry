@@ -52,36 +52,48 @@ namespace UI
 
             string mySqlConn = "server=127.0.0.1; database=db_laundry; user=root; password=";
             MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
+
             try
             {
-                string query = "SELECT COUNT(*) FROM tb_user WHERE Nama = @username AND Password = @password";
+                string query = "SELECT user_id, Nama, Alamat, No_tlp FROM tb_user WHERE Nama = @username AND Password = @password";
                 MySqlCommand cmd = new MySqlCommand(query, mySqlConnection);
                 cmd.Parameters.AddWithValue("@username", username);
                 cmd.Parameters.AddWithValue("@password", password);
 
                 mySqlConnection.Open();
-                int userExists = Convert.ToInt32(cmd.ExecuteScalar());
-                mySqlConnection.Close();
+                MySqlDataReader reader = cmd.ExecuteReader();
 
-                if (userExists > 0)
+                if (reader.Read())
                 {
+                    // Simpan data user ke CurrentUser
+                    CurrentUser.UserId = reader.GetInt32("user_id");
+                    CurrentUser.Nama = reader.GetString("Nama");
+                    CurrentUser.Alamat = reader.GetString("Alamat");
+                    CurrentUser.NoTelepon = reader.GetString("No_tlp");
+
                     MessageBox.Show("Login berhasil!");
-                    // Navigasi ke halaman berikutnya
                     this.Hide();
-                    Form2 Form = new Form2();
-                    Form.ShowDialog();
+
+                    // Navigasi ke Form berikutnya
+                    Form2 form2 = new Form2();
+                    form2.ShowDialog();
                 }
                 else
                 {
                     MessageBox.Show("Username atau password salah!");
                 }
+                reader.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
             }
-
+            finally
+            {
+                mySqlConnection.Close();
+            }
         }
+
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
             this.Hide();
