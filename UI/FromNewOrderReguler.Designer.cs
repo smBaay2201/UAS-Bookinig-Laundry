@@ -39,12 +39,12 @@
             this.alamattampil = new Guna.UI2.WinForms.Guna2TextBox();
             this.berattampil = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlReguler = new Guna.UI2.WinForms.Guna2Panel();
+            this.dtpTglSelesai = new System.Windows.Forms.DateTimePicker();
             this.btnLayanan = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.dtpTglSelesai = new System.Windows.Forms.DateTimePicker();
             this.pnlReguler.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnLayanan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -261,6 +261,13 @@
             this.pnlReguler.Size = new System.Drawing.Size(905, 563);
             this.pnlReguler.TabIndex = 64;
             // 
+            // dtpTglSelesai
+            // 
+            this.dtpTglSelesai.Location = new System.Drawing.Point(566, 46);
+            this.dtpTglSelesai.Name = "dtpTglSelesai";
+            this.dtpTglSelesai.Size = new System.Drawing.Size(146, 20);
+            this.dtpTglSelesai.TabIndex = 66;
+            // 
             // btnLayanan
             // 
             this.btnLayanan.BackColor = System.Drawing.Color.Transparent;
@@ -328,19 +335,11 @@
             this.guna2PictureBox1.Location = new System.Drawing.Point(112, 19);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(367, 519);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(367, 509);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 19;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
-            // 
-            // dtpTglSelesai
-            // 
-            this.dtpTglSelesai.Location = new System.Drawing.Point(566, 46);
-            this.dtpTglSelesai.Name = "dtpTglSelesai";
-            this.dtpTglSelesai.Size = new System.Drawing.Size(146, 20);
-            this.dtpTglSelesai.TabIndex = 66;
- 
             // 
             // FromNewOrderReguler
             // 
