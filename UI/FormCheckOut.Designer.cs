@@ -33,7 +33,6 @@
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnCheckOut = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox16 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -41,12 +40,13 @@
             this.guna2PictureBox15 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblOrderNumber = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblToPembayaran = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCheckOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).BeginInit();
@@ -60,7 +60,7 @@
             // 
             this.guna2PictureBox8.Image = global::UI.Properties.Resources.Check_Out;
             this.guna2PictureBox8.ImageRotate = 0F;
-            this.guna2PictureBox8.Location = new System.Drawing.Point(147, -1);
+            this.guna2PictureBox8.Location = new System.Drawing.Point(180, 0);
             this.guna2PictureBox8.Name = "guna2PictureBox8";
             this.guna2PictureBox8.Size = new System.Drawing.Size(216, 97);
             this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -89,6 +89,7 @@
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox6.TabIndex = 5;
             this.guna2PictureBox6.TabStop = false;
+            this.guna2PictureBox6.Click += new System.EventHandler(this.guna2PictureBox6_Click);
             // 
             // guna2PictureBox3
             // 
@@ -118,23 +119,12 @@
             this.guna2PictureBox2.TabStop = false;
             this.guna2PictureBox2.UseTransparentBackground = true;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::UI.Properties.Resources.text_order;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(264, 102);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(670, 79);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // btnCheckOut
             // 
             this.btnCheckOut.BackColor = System.Drawing.Color.Transparent;
             this.btnCheckOut.Image = global::UI.Properties.Resources.back_1;
             this.btnCheckOut.ImageRotate = 0F;
-            this.btnCheckOut.Location = new System.Drawing.Point(77, 12);
+            this.btnCheckOut.Location = new System.Drawing.Point(115, 12);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.Size = new System.Drawing.Size(45, 42);
             this.btnCheckOut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -210,14 +200,56 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(71, 693);
+            this.panel1.Size = new System.Drawing.Size(109, 693);
             this.panel1.TabIndex = 49;
+            // 
+            // lblOrderNumber
+            // 
+            this.lblOrderNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblOrderNumber.DefaultText = "Order #";
+            this.lblOrderNumber.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.lblOrderNumber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.lblOrderNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lblOrderNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lblOrderNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.lblOrderNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblOrderNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.lblOrderNumber.Location = new System.Drawing.Point(490, 87);
+            this.lblOrderNumber.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.lblOrderNumber.Name = "lblOrderNumber";
+            this.lblOrderNumber.PasswordChar = '\0';
+            this.lblOrderNumber.PlaceholderText = "";
+            this.lblOrderNumber.SelectedText = "";
+            this.lblOrderNumber.Size = new System.Drawing.Size(229, 57);
+            this.lblOrderNumber.TabIndex = 50;
+            // 
+            // lblToPembayaran
+            // 
+            this.lblToPembayaran.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lblToPembayaran.DefaultText = "Proses to Payment";
+            this.lblToPembayaran.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.lblToPembayaran.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.lblToPembayaran.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lblToPembayaran.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lblToPembayaran.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.lblToPembayaran.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblToPembayaran.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.lblToPembayaran.Location = new System.Drawing.Point(424, 152);
+            this.lblToPembayaran.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.lblToPembayaran.Name = "lblToPembayaran";
+            this.lblToPembayaran.PasswordChar = '\0';
+            this.lblToPembayaran.PlaceholderText = "";
+            this.lblToPembayaran.SelectedText = "";
+            this.lblToPembayaran.Size = new System.Drawing.Size(385, 57);
+            this.lblToPembayaran.TabIndex = 51;
             // 
             // FormCheckOut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1276, 693);
+            this.ClientSize = new System.Drawing.Size(1221, 693);
+            this.Controls.Add(this.lblToPembayaran);
+            this.Controls.Add(this.lblOrderNumber);
             this.Controls.Add(this.btnCheckOut);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2PictureBox8);
@@ -225,17 +257,16 @@
             this.Controls.Add(this.guna2PictureBox6);
             this.Controls.Add(this.guna2PictureBox3);
             this.Controls.Add(this.guna2PictureBox2);
-            this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCheckOut";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCheckOut";
+            this.Load += new System.EventHandler(this.FormCheckOut_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCheckOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();
@@ -248,8 +279,6 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
@@ -262,5 +291,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox15;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox14;
         private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2TextBox lblOrderNumber;
+        private Guna.UI2.WinForms.Guna2TextBox lblToPembayaran;
     }
 }

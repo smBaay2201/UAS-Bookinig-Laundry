@@ -14,6 +14,8 @@ namespace UI
     
     public partial class Form1 : Form
     {
+        public static string CurrentUserNoHP { get; set; } // Menyimpan nomor HP pengguna yang login
+
         public Form1()
         {
             InitializeComponent();
@@ -99,6 +101,16 @@ namespace UI
             this.Hide();
             FormDaftar Form = new FormDaftar();
             Form.ShowDialog();
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();  // Menutup aplikasi
+        }
+
+        private void guna2ControlBox2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

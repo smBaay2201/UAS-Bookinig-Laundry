@@ -61,10 +61,11 @@
             this.guna2ControlBox2.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox2.Location = new System.Drawing.Point(1109, 14);
-            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(39, 36);
             this.guna2ControlBox2.TabIndex = 31;
+            this.guna2ControlBox2.Click += new System.EventHandler(this.guna2ControlBox2_Click);
             // 
             // guna2ControlBox1
             // 
@@ -73,10 +74,11 @@
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1155, 14);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(36, 36);
             this.guna2ControlBox1.TabIndex = 30;
+            this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
             // alamat
             // 
@@ -265,9 +267,9 @@
             // 
             // dtpTglSelesai
             // 
-            this.dtpTglSelesai.CalendarFont = new System.Drawing.Font("Swis721 BlkEx BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTglSelesai.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpTglSelesai.Location = new System.Drawing.Point(755, 57);
-            this.dtpTglSelesai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpTglSelesai.Margin = new System.Windows.Forms.Padding(4);
             this.dtpTglSelesai.Name = "dtpTglSelesai";
             this.dtpTglSelesai.Size = new System.Drawing.Size(193, 22);
             this.dtpTglSelesai.TabIndex = 66;

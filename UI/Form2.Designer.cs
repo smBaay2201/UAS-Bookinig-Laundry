@@ -112,6 +112,7 @@
             this.guna2Button4.Size = new System.Drawing.Size(47, 51);
             this.guna2Button4.TabIndex = 5;
             this.guna2Button4.UseTransparentBackground = true;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -190,6 +191,7 @@
             this.guna2ControlBox3.Name = "guna2ControlBox3";
             this.guna2ControlBox3.Size = new System.Drawing.Size(39, 36);
             this.guna2ControlBox3.TabIndex = 7;
+            this.guna2ControlBox3.Click += new System.EventHandler(this.guna2ControlBox3_Click);
             // 
             // guna2ControlBox4
             // 
@@ -202,6 +204,7 @@
             this.guna2ControlBox4.Name = "guna2ControlBox4";
             this.guna2ControlBox4.Size = new System.Drawing.Size(36, 36);
             this.guna2ControlBox4.TabIndex = 6;
+            this.guna2ControlBox4.Click += new System.EventHandler(this.guna2ControlBox4_Click);
             // 
             // guna2PictureBox2
             // 
