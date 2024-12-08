@@ -68,5 +68,22 @@ namespace UI
             }
 
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormMyOrder form = new FormMyOrder();
+            form.ShowDialog();
+        }
+
+        private void guna2ControlBox4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();  // Menutup aplikasi
+        }
+
+        private void guna2ControlBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

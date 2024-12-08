@@ -47,15 +47,7 @@ namespace UI
             proses = null;
         }
 
-        private void guna2PictureBox16_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void guna2PictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void guna2PictureBox14_Click(object sender, EventArgs e)
         {
@@ -78,10 +70,7 @@ namespace UI
             proses1 = null;
         }
 
-        private void guna2PictureBox13_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void guna2PictureBox11_Click(object sender, EventArgs e)
         {
@@ -91,10 +80,7 @@ namespace UI
             Form.ShowDialog();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+     
 
         private void guna2PictureBox3_Click(object sender, EventArgs e)
         {
@@ -103,9 +89,6 @@ namespace UI
             Form.ShowDialog();
         }
 
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

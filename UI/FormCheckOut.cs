@@ -19,6 +19,12 @@ namespace UI
             InitializeComponent();
         }
 
+        public void SetOrderDetails(string orderNumber, decimal totalPayment)
+        {
+            lblOrderNumber.Text = orderNumber; // Label untuk nomor order
+            lblToPembayaran.Text = "Total Payment Rp. " + totalPayment.ToString("N0"); // Format angka ribuan
+        }
+
         private void guna2PictureBox10_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -46,6 +52,16 @@ namespace UI
            this.Hide();
             FormPopUpProfile From = new FormPopUpProfile();
             From.ShowDialog();
+        }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Pembayaran Berhasil");
+        }
+
+        private void FormCheckOut_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

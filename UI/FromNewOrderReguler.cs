@@ -88,9 +88,51 @@ namespace UI
                         mySqlConnection.Open();
                         cmd.ExecuteNonQuery();
                     }
-                }
 
+                }
                 MessageBox.Show("Pesanan berhasil dibuat!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Terjadi kesalahan: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            try
+            {
+                // Koneksi ke database
+                string mySqlConn = "server=localhost; database=db_laundry; user=root; password=";
+                using (MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn))
+                {
+                    // Query untuk mendapatkan nomor order terbaru dan total harga dari tabel booking
+                    string query = "SELECT id_booking, ttl_Harga FROM tb_booking ORDER BY id_booking DESC LIMIT 1";
+                    using (MySqlCommand cmd = new MySqlCommand(query, mySqlConnection))
+                    {
+                        mySqlConnection.Open();
+
+                        // Eksekusi query
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Ambil nomor order dan total harga
+                                string orderNumber = "Order #" + reader["id_booking"].ToString();
+                                decimal totalPayment = Convert.ToDecimal(reader["ttl_Harga"]);
+
+                                // Panggil form checkout dan tampilkan data
+                                this.Hide();
+                                using (FormCheckOut formCheckOut = new FormCheckOut())
+                                {
+                                    formCheckOut.SetOrderDetails(orderNumber, totalPayment);
+                                    formCheckOut.ShowDialog();
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Data pesanan tidak ditemukan.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                        }
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -135,6 +177,16 @@ namespace UI
 
             // Tampilkan total harga di kotak putih
             txttotalHarga.Text = "Rp. " + totalHarga.ToString("N0"); // Format angka dengan ribuan
+        }
+
+        private void guna2ControlBox2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();  // Menutup aplikasi
         }
     }
 }

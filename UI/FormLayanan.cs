@@ -255,6 +255,16 @@ namespace UI
             Form1 Form = new Form1();
             Form.ShowDialog();
         }
+
+        private void guna2ControlBox1_Click_2(object sender, EventArgs e)
+        {
+            Application.Exit();  // Menutup aplikasi
+        }
+
+        private void guna2ControlBox2_Click_2(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
 

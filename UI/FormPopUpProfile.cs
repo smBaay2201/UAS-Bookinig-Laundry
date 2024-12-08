@@ -13,15 +13,16 @@ namespace UI
 {
     public partial class FormPopUpProfile : Form
     {
-        private string userNoHP;
+        private string Nama;
+       
         public FormPopUpProfile()
         {
             InitializeComponent();
         }
 
-        public FormPopUpProfile(string noHP)
+        public FormPopUpProfile(string nama)
         {
-            userNoHP = noHP; // Inisialisasi nomor HP
+            Nama = nama; // Inisialisasi nomor HP
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -40,38 +41,47 @@ namespace UI
 
         private void FormPopUpProfile_Load(object sender, EventArgs e)
         {
-            string mySqlConn = "server=127.0.0.1; database=db_laundry; user=root; password=";
-            MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
+            
+                string Nama = Form1.CurrentUserNoHP; // Mengambil nomor HP pengguna yang login
 
-            try
-            {
-                // Query untuk mengambil data user berdasarkan nomor HP
-                string querySelect = "SELECT Nama, No_tlp, Alamat FROM tb_user WHERE No_tlp = @No_tlp";
-                MySqlCommand cmdSelect = new MySqlCommand(querySelect, mySqlConnection);
-                cmdSelect.Parameters.AddWithValue("@No_tlp", userNoHP);
-
-                mySqlConnection.Open();
-                MySqlDataReader reader = cmdSelect.ExecuteReader();
-                if (reader.Read())
+                if (string.IsNullOrEmpty(Nama))
                 {
-                    // Isi data ke TextBox
-                    guna2TextBox2.Text = reader["Nama"].ToString();
-                    guna2TextBox3.Text = reader["No_HP"].ToString();
-                    guna2TextBox4.Text = reader["Alamat"].ToString();
-                }
-                else
-                {
-                    MessageBox.Show("Data pengguna tidak ditemukan!");
+                    MessageBox.Show("Tidak ada pengguna yang login.");
+                    return;
                 }
 
-                reader.Close();
-                mySqlConnection.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
-            }
+                string mySqlConn = "server=127.0.0.1; database=db_laundry; user=root; password=";
+                MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn);
 
+                try
+                {
+                    // Query untuk mengambil data user berdasarkan nomor HP
+                    string querySelect = "SELECT Nama, No_tlp, Alamat FROM tb_user WHERE Nama = @Nama";
+                    MySqlCommand cmdSelect = new MySqlCommand(querySelect, mySqlConnection);
+                    cmdSelect.Parameters.AddWithValue("@Nama", Nama); // Menggunakan nomor telepon yang sudah disimpan
+
+                    mySqlConnection.Open();
+                    MySqlDataReader reader = cmdSelect.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        // Mengisi data ke TextBox
+                        guna2TextBox2.Text = reader["Nama"].ToString();
+                        guna2TextBox3.Text = reader["No_tlp"].ToString();
+                        guna2TextBox4.Text = reader["Alamat"].ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Data pengguna tidak ditemukan!");
+                    }
+
+                    reader.Close();
+                    mySqlConnection.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
+                }
+            
         }
     }
 }
