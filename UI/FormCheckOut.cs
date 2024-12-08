@@ -57,6 +57,9 @@ namespace UI
         private void guna2PictureBox6_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Pembayaran Berhasil");
+            this.Hide();
+            FormLayanan From = new FormLayanan();
+            From.ShowDialog();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
