@@ -299,7 +299,7 @@
             this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox11.TabIndex = 13;
             this.guna2PictureBox11.TabStop = false;
-            this.guna2PictureBox11.Click += new System.EventHandler(this.guna2PictureBox11_Click);
+         
             // 
             // guna2PictureBox10
             // 
@@ -312,7 +312,7 @@
             this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox10.TabIndex = 12;
             this.guna2PictureBox10.TabStop = false;
-            this.guna2PictureBox10.Click += new System.EventHandler(this.guna2PictureBox10_Click);
+           
             // 
             // guna2PictureBox9
             // 
@@ -325,7 +325,7 @@
             this.guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox9.TabIndex = 11;
             this.guna2PictureBox9.TabStop = false;
-            this.guna2PictureBox9.Click += new System.EventHandler(this.guna2PictureBox9_Click);
+            
             // 
             // guna2PictureBox8
             // 
@@ -338,7 +338,7 @@
             this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox8.TabIndex = 10;
             this.guna2PictureBox8.TabStop = false;
-            this.guna2PictureBox8.Click += new System.EventHandler(this.guna2PictureBox8_Click);
+           
             // 
             // guna2PictureBox7
             // 
@@ -351,7 +351,7 @@
             this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox7.TabIndex = 9;
             this.guna2PictureBox7.TabStop = false;
-            this.guna2PictureBox7.Click += new System.EventHandler(this.guna2PictureBox7_Click);
+            
             // 
             // FormLayanan
             // 
@@ -371,7 +371,7 @@
             this.Name = "FormLayanan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormLayanan";
-            this.Load += new System.EventHandler(this.FormLayanan_Load);
+            
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();

@@ -68,5 +68,23 @@ namespace UI
         {
 
         }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Apakah anda ingin logout?", "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                // Jika pengguna memilih "Yes", kembali ke Form1
+                this.Hide();
+                Form1 form = new Form1();
+                form.ShowDialog();
+            }
+            else if (result == DialogResult.No)
+            {
+                // Jika pengguna memilih "No", tetap berada di Form2
+                // Tidak ada aksi karena Form2 tetap aktif
+            }
+        }
     }
 }

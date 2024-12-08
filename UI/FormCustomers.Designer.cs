@@ -955,7 +955,7 @@
             this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox10.TabIndex = 114;
             this.guna2PictureBox10.TabStop = false;
-            this.guna2PictureBox10.Click += new System.EventHandler(this.guna2PictureBox10_Click);
+  
             // 
             // guna2PictureBox4
             // 

@@ -21,93 +21,6 @@ namespace UI
             InitializeComponent();
         }
 
-       
-        private void FormLayanan_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox5_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void guna2PictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox5_Click_1(object sender, EventArgs e)
-        {
-
-        }
-        
-
         private void guna2PictureBox1_Click_1(object sender, EventArgs e)
         {
             pnlLayanan.Visible = false;
@@ -121,16 +34,6 @@ namespace UI
         private void guna2PictureBox2_Click_2(object sender, EventArgs e)
         {
             pnlLayanan.Visible = false;
-        }
-
-        private void guna2ControlBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox2_Click_1(object sender, EventArgs e)
-        {
-
         }
 
 

@@ -110,7 +110,7 @@ namespace UI
                             if (reader.Read())
                             {
                                 // Ambil nomor order dan total harga
-                                string orderServiceType = "Order #" + reader["service_type"].ToString();
+                                string orderServiceType = " " + reader["service_type"].ToString();
                                 string jml_cucian = " " + reader["jml_cucian"].ToString();
                                 string tgl_bayar = " " + reader["tgl_Booking"].ToString();
                                 string tgl_ambil = " " + reader["tgl_selesai"].ToString();

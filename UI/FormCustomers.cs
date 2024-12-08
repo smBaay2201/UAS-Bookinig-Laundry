@@ -17,10 +17,7 @@ namespace UI
             InitializeComponent();
         }
 
-        private void guna2PictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void guna2PictureBox9_Click(object sender, EventArgs e)
         {

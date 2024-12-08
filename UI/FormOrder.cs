@@ -25,8 +25,8 @@ namespace UI
             lblLayanan.Text = orderServiceType; // Label untuk layanan
             lblBerat.Text = jml_cucian; // label untuk berat cucian
             lblTglBayar.Text = tgl_bayar; // label untuk tanggal bayar
-            lblTglAmbil.Text = tgl_ambil; // label untuk tanggal ambil
-            lblToPayment.Text = " " + totalPayment.ToString("N0"); // Format angka ribuan
+            lblAmbil.Text = tgl_ambil; // label untuk tanggal ambil
+            lblBiaya.Text = " " + totalPayment.ToString("N0"); // Format angka ribuan
         }
 
         private void guna2PictureBox10_Click(object sender, EventArgs e)
