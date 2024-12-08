@@ -7,7 +7,7 @@ namespace UI
 {
     public partial class FormNewOrderSepatu : Form
     {
-        FormOrder proses;
+        
 
         public FormNewOrderSepatu()
         {

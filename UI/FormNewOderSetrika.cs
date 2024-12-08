@@ -13,7 +13,7 @@ namespace UI
 {
     public partial class FormNewOderSetrika : Form
     {
-        FormOrder proses;
+        
         public FormNewOderSetrika()
         {
             InitializeComponent();
@@ -142,7 +142,7 @@ namespace UI
         }
         private void proses_FormClosed(object sender, FormClosedEventArgs e)
         {
-            proses = null;
+            
         }
 
         private void btnLayanan_Click(object sender, EventArgs e)

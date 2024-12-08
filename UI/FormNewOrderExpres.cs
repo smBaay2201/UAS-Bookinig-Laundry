@@ -13,7 +13,7 @@ namespace UI
 {
     public partial class FormNewOrderExpres : Form
     {
-        FormOrder proses;
+        
         public FormNewOrderExpres()
         {
             InitializeComponent();
@@ -142,7 +142,7 @@ namespace UI
         }
             private void proses_FormClosed(object sender, FormClosedEventArgs e)
             {
-                proses = null;
+                
             }
 
         private void btnLayanan_Click(object sender, EventArgs e)

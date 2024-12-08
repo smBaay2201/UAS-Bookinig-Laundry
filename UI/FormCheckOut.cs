@@ -59,6 +59,11 @@ namespace UI
             MessageBox.Show("Pembayaran Berhasil");
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void FormCheckOut_Load(object sender, EventArgs e)
         {
 
