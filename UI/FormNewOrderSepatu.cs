@@ -95,7 +95,7 @@ namespace UI
                 using (MySqlConnection mySqlConnection = new MySqlConnection(mySqlConn))
                 {
                     // Query untuk mendapatkan nomor order terbaru dan total harga dari tabel booking
-                    string query = "SELECT id_booking, ttl_Harga FROM tb_booking ORDER BY id_booking DESC LIMIT 1";
+                    string query = "SELECT service_type, jml_cucian, tgl_Booking, tgl_selesai, ttl_Harga FROM tb_booking ORDER BY id_booking DESC LIMIT 1";
                     using (MySqlCommand cmd = new MySqlCommand(query, mySqlConnection))
                     {
                         mySqlConnection.Open();
@@ -106,14 +106,18 @@ namespace UI
                             if (reader.Read())
                             {
                                 // Ambil nomor order dan total harga
-                                string orderNumber = "Order #" + reader["id_booking"].ToString();
+                                string orderServiceType = " " + reader["service_type"].ToString();
+                                string jml_cucian = " " + reader["jml_cucian"].ToString();
+                                string tgl_bayar = " " + reader["tgl_Booking"].ToString();
+                                string tgl_ambil = " " + reader["tgl_selesai"].ToString();
                                 decimal totalPayment = Convert.ToDecimal(reader["ttl_Harga"]);
+
 
                                 // Panggil form checkout dan tampilkan data
                                 this.Hide();
-                                using (FormCheckOut formCheckOut = new FormCheckOut())
+                                using (FormOrder formCheckOut = new FormOrder())
                                 {
-                                    formCheckOut.SetOrderDetails(orderNumber, totalPayment);
+                                    formCheckOut.SetOrderDetails(orderServiceType, jml_cucian, tgl_bayar, tgl_ambil, totalPayment);
                                     formCheckOut.ShowDialog();
                                 }
                             }
@@ -170,6 +174,11 @@ namespace UI
 
             // Tampilkan total harga di kotak putih
             txttotalHarga.Text = "Rp. " + totalHarga.ToString("N0"); // Format angka dengan ribuan
+        }
+
+        private void pnlNewOrder_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

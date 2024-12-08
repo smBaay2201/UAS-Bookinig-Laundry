@@ -228,7 +228,9 @@ namespace UI
 
         private void guna2PictureBox16_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form2 Form = new Form2();
+            Form.ShowDialog();
         }
 
         private void guna2PictureBox15_Click(object sender, EventArgs e)

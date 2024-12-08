@@ -19,10 +19,10 @@ namespace UI
             InitializeComponent();
         }
 
-        public void SetOrderDetails(string orderNumber, decimal totalPayment)
+        public void SetOrderDetails(string order, decimal totalPayment)
         {
-            lblOrderNumber.Text = orderNumber; // Label untuk nomor order
-            lblToPembayaran.Text = "Total Payment Rp. " + totalPayment.ToString("N0"); // Format angka ribuan
+            lblOrderNumber.Text = "Order #" + order;  // Label untuk layanan
+            lblToPembayaran.Text = "Total Pembayaran Rp. " + totalPayment.ToString("N0"); // Format angka ribuan
         }
 
         private void guna2PictureBox10_Click(object sender, EventArgs e)

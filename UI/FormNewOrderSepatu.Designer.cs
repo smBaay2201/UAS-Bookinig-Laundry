@@ -247,7 +247,6 @@
             this.guna2PictureBox2.TabIndex = 41;
             this.guna2PictureBox2.TabStop = false;
             this.guna2PictureBox2.UseTransparentBackground = true;
-          
             // 
             // guna2PictureBox1
             // 
@@ -262,7 +261,6 @@
             this.guna2PictureBox1.TabIndex = 40;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
-          
             // 
             // txttotalHarga
             // 
@@ -294,6 +292,7 @@
             this.pnlNewOrder.Name = "pnlNewOrder";
             this.pnlNewOrder.Size = new System.Drawing.Size(905, 563);
             this.pnlNewOrder.TabIndex = 52;
+            this.pnlNewOrder.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlNewOrder_Paint);
             // 
             // btnLayanan
             // 

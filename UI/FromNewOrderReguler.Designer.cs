@@ -39,7 +39,6 @@
             this.alamattampil = new Guna.UI2.WinForms.Guna2TextBox();
             this.berattampil = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlReguler = new Guna.UI2.WinForms.Guna2Panel();
-            this.dtpTglSelesai = new System.Windows.Forms.DateTimePicker();
             this.btnLayanan = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -60,10 +59,9 @@
             this.guna2ControlBox2.FillColor = System.Drawing.SystemColors.ActiveCaption;
             this.guna2ControlBox2.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(1109, 14);
-            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(832, 11);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.Size = new System.Drawing.Size(39, 36);
+            this.guna2ControlBox2.Size = new System.Drawing.Size(29, 29);
             this.guna2ControlBox2.TabIndex = 31;
             this.guna2ControlBox2.Click += new System.EventHandler(this.guna2ControlBox2_Click);
             // 
@@ -73,10 +71,9 @@
             this.guna2ControlBox1.FillColor = System.Drawing.SystemColors.ActiveCaption;
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(1155, 14);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(866, 11);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(36, 36);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(27, 29);
             this.guna2ControlBox1.TabIndex = 30;
             this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
@@ -93,13 +90,13 @@
             this.alamat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.alamat.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.alamat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.alamat.Location = new System.Drawing.Point(184, 459);
-            this.alamat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.alamat.Location = new System.Drawing.Point(138, 373);
+            this.alamat.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.alamat.Name = "alamat";
             this.alamat.PasswordChar = '\0';
             this.alamat.PlaceholderText = "";
             this.alamat.SelectedText = "";
-            this.alamat.Size = new System.Drawing.Size(416, 108);
+            this.alamat.Size = new System.Drawing.Size(312, 88);
             this.alamat.TabIndex = 28;
             // 
             // txtBerat
@@ -115,13 +112,13 @@
             this.txtBerat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtBerat.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtBerat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtBerat.Location = new System.Drawing.Point(184, 374);
-            this.txtBerat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtBerat.Location = new System.Drawing.Point(138, 304);
+            this.txtBerat.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtBerat.Name = "txtBerat";
             this.txtBerat.PasswordChar = '\0';
             this.txtBerat.PlaceholderText = "";
             this.txtBerat.SelectedText = "";
-            this.txtBerat.Size = new System.Drawing.Size(416, 34);
+            this.txtBerat.Size = new System.Drawing.Size(312, 28);
             this.txtBerat.TabIndex = 27;
             // 
             // service
@@ -137,13 +134,13 @@
             this.service.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.service.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.service.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.service.Location = new System.Drawing.Point(184, 295);
-            this.service.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.service.Location = new System.Drawing.Point(138, 240);
+            this.service.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.service.Name = "service";
             this.service.PasswordChar = '\0';
             this.service.PlaceholderText = "";
             this.service.SelectedText = "";
-            this.service.Size = new System.Drawing.Size(416, 34);
+            this.service.Size = new System.Drawing.Size(312, 28);
             this.service.TabIndex = 26;
             // 
             // customername
@@ -159,13 +156,13 @@
             this.customername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.customername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.customername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.customername.Location = new System.Drawing.Point(184, 224);
-            this.customername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.customername.Location = new System.Drawing.Point(138, 182);
+            this.customername.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.customername.Name = "customername";
             this.customername.PasswordChar = '\0';
             this.customername.PlaceholderText = "";
             this.customername.SelectedText = "";
-            this.customername.Size = new System.Drawing.Size(416, 34);
+            this.customername.Size = new System.Drawing.Size(312, 28);
             this.customername.TabIndex = 25;
             // 
             // txttotalHarga
@@ -179,13 +176,13 @@
             this.txttotalHarga.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txttotalHarga.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttotalHarga.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txttotalHarga.Location = new System.Drawing.Point(915, 534);
-            this.txttotalHarga.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txttotalHarga.Location = new System.Drawing.Point(686, 434);
+            this.txttotalHarga.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txttotalHarga.Name = "txttotalHarga";
             this.txttotalHarga.PasswordChar = '\0';
             this.txttotalHarga.PlaceholderText = "";
             this.txttotalHarga.SelectedText = "";
-            this.txttotalHarga.Size = new System.Drawing.Size(187, 39);
+            this.txttotalHarga.Size = new System.Drawing.Size(140, 32);
             this.txttotalHarga.TabIndex = 63;
             // 
             // namatampil
@@ -201,13 +198,13 @@
             this.namatampil.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.namatampil.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.namatampil.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.namatampil.Location = new System.Drawing.Point(683, 174);
-            this.namatampil.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.namatampil.Location = new System.Drawing.Point(512, 141);
+            this.namatampil.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.namatampil.Name = "namatampil";
             this.namatampil.PasswordChar = '\0';
             this.namatampil.PlaceholderText = "";
             this.namatampil.SelectedText = "";
-            this.namatampil.Size = new System.Drawing.Size(436, 66);
+            this.namatampil.Size = new System.Drawing.Size(327, 54);
             this.namatampil.TabIndex = 61;
             // 
             // alamattampil
@@ -223,13 +220,13 @@
             this.alamattampil.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.alamattampil.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.alamattampil.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.alamattampil.Location = new System.Drawing.Point(683, 439);
-            this.alamattampil.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.alamattampil.Location = new System.Drawing.Point(512, 357);
+            this.alamattampil.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.alamattampil.Name = "alamattampil";
             this.alamattampil.PasswordChar = '\0';
             this.alamattampil.PlaceholderText = "";
             this.alamattampil.SelectedText = "";
-            this.alamattampil.Size = new System.Drawing.Size(436, 66);
+            this.alamattampil.Size = new System.Drawing.Size(327, 54);
             this.alamattampil.TabIndex = 60;
             // 
             // berattampil
@@ -245,44 +242,34 @@
             this.berattampil.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.berattampil.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.berattampil.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.berattampil.Location = new System.Drawing.Point(683, 304);
-            this.berattampil.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.berattampil.Location = new System.Drawing.Point(512, 247);
+            this.berattampil.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.berattampil.Name = "berattampil";
             this.berattampil.PasswordChar = '\0';
             this.berattampil.PlaceholderText = "";
             this.berattampil.SelectedText = "";
-            this.berattampil.Size = new System.Drawing.Size(436, 66);
+            this.berattampil.Size = new System.Drawing.Size(327, 54);
             this.berattampil.TabIndex = 59;
             // 
             // pnlReguler
             // 
-            this.pnlReguler.Controls.Add(this.dtpTglSelesai);
             this.pnlReguler.Controls.Add(this.btnLayanan);
             this.pnlReguler.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlReguler.Location = new System.Drawing.Point(0, 0);
-            this.pnlReguler.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlReguler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlReguler.Name = "pnlReguler";
-            this.pnlReguler.Size = new System.Drawing.Size(1207, 693);
+            this.pnlReguler.Size = new System.Drawing.Size(905, 563);
             this.pnlReguler.TabIndex = 64;
-            // 
-            // dtpTglSelesai
-            // 
-            this.dtpTglSelesai.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpTglSelesai.Location = new System.Drawing.Point(755, 57);
-            this.dtpTglSelesai.Margin = new System.Windows.Forms.Padding(4);
-            this.dtpTglSelesai.Name = "dtpTglSelesai";
-            this.dtpTglSelesai.Size = new System.Drawing.Size(193, 22);
-            this.dtpTglSelesai.TabIndex = 66;
             // 
             // btnLayanan
             // 
             this.btnLayanan.BackColor = System.Drawing.Color.Transparent;
             this.btnLayanan.Image = global::UI.Properties.Resources.back_1;
             this.btnLayanan.ImageRotate = 0F;
-            this.btnLayanan.Location = new System.Drawing.Point(80, 14);
-            this.btnLayanan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLayanan.Location = new System.Drawing.Point(60, 11);
+            this.btnLayanan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLayanan.Name = "btnLayanan";
-            this.btnLayanan.Size = new System.Drawing.Size(45, 42);
+            this.btnLayanan.Size = new System.Drawing.Size(34, 34);
             this.btnLayanan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnLayanan.TabIndex = 65;
             this.btnLayanan.TabStop = false;
@@ -294,10 +281,10 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = global::UI.Properties.Resources.process;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(893, 574);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(670, 466);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(225, 76);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(169, 62);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox3.TabIndex = 62;
             this.guna2PictureBox3.TabStop = false;
@@ -309,10 +296,10 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::UI.Properties.Resources.backgrnd;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(659, 122);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(494, 99);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(491, 527);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(368, 428);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 58;
             this.guna2PictureBox2.TabStop = false;
@@ -323,10 +310,10 @@
             this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = global::UI.Properties.Resources.add_to_card;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(452, 551);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(339, 448);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(148, 97);
+            this.guna2PictureBox4.Size = new System.Drawing.Size(111, 79);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox4.TabIndex = 29;
             this.guna2PictureBox4.TabStop = false;
@@ -338,10 +325,10 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::UI.Properties.Resources.new_Order;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(149, 23);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(112, 19);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(489, 626);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(367, 509);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 19;
             this.guna2PictureBox1.TabStop = false;
@@ -349,9 +336,9 @@
             // 
             // FromNewOrderReguler
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1207, 693);
+            this.ClientSize = new System.Drawing.Size(905, 563);
             this.Controls.Add(this.txttotalHarga);
             this.Controls.Add(this.guna2PictureBox3);
             this.Controls.Add(this.namatampil);
@@ -368,7 +355,7 @@
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.pnlReguler);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FromNewOrderReguler";
             this.Text = "Form3";
             this.pnlReguler.ResumeLayout(false);
@@ -399,6 +386,5 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2Panel pnlReguler;
         private Guna.UI2.WinForms.Guna2PictureBox btnLayanan;
-        private System.Windows.Forms.DateTimePicker dtpTglSelesai;
     }
 }

@@ -85,7 +85,7 @@
             // 
             this.guna2PictureBox6.Image = global::UI.Properties.Resources.byr;
             this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(470, 410);
+            this.guna2PictureBox6.Location = new System.Drawing.Point(468, 410);
             this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.Size = new System.Drawing.Size(119, 46);
@@ -129,7 +129,7 @@
             this.btnCheckOut.BackColor = System.Drawing.Color.Transparent;
             this.btnCheckOut.Image = global::UI.Properties.Resources.back_1;
             this.btnCheckOut.ImageRotate = 0F;
-            this.btnCheckOut.Location = new System.Drawing.Point(97, 11);
+            this.btnCheckOut.Location = new System.Drawing.Point(56, 11);
             this.btnCheckOut.Margin = new System.Windows.Forms.Padding(2);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.Size = new System.Drawing.Size(34, 34);
@@ -142,7 +142,7 @@
             // lblOrderNumber
             // 
             this.lblOrderNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblOrderNumber.DefaultText = "Order #";
+            this.lblOrderNumber.DefaultText = "";
             this.lblOrderNumber.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.lblOrderNumber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.lblOrderNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -162,7 +162,7 @@
             // lblToPembayaran
             // 
             this.lblToPembayaran.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lblToPembayaran.DefaultText = "Proses to Payment";
+            this.lblToPembayaran.DefaultText = "";
             this.lblToPembayaran.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.lblToPembayaran.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.lblToPembayaran.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
