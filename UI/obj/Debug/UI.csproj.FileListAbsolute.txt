@@ -410,3 +410,4 @@ C:\project uas\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CoreCompileInputs.cac
 C:\project uas\UAS-Bookinig-Laundry\UI\obj\Debug\UI.csproj.CopyComplete
 C:\project uas\UAS-Bookinig-Laundry\UI\obj\Debug\UI.exe
 C:\project uas\UAS-Bookinig-Laundry\UI\obj\Debug\UI.pdb
+E:\Amikom\Semester 3\Pemroglanjut\uas\final project UI\UI\UI\obj\Debug\UI.pop_pembayaran.resources
