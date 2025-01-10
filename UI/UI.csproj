@@ -131,161 +131,161 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrentUser.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Model\Entity\CurrentUser.cs" />
+    <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="View\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
+    <Compile Include="View\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3EditProfilecs.cs">
+    <Compile Include="View\Form3EditProfilecs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3EditProfilecs.Designer.cs">
+    <Compile Include="View\Form3EditProfilecs.Designer.cs">
       <DependentUpon>Form3EditProfilecs.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAdmin.cs">
+    <Compile Include="View\FormAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAdmin.Designer.cs">
+    <Compile Include="View\FormAdmin.Designer.cs">
       <DependentUpon>FormAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCheckOut.cs">
+    <Compile Include="View\FormCheckOut.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCheckOut.Designer.cs">
+    <Compile Include="View\FormCheckOut.Designer.cs">
       <DependentUpon>FormCheckOut.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCustomers.cs">
+    <Compile Include="View\FormCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCustomers.Designer.cs">
+    <Compile Include="View\FormCustomers.Designer.cs">
       <DependentUpon>FormCustomers.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDaftar.cs">
+    <Compile Include="View\FormDaftar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDaftar.Designer.cs">
+    <Compile Include="View\FormDaftar.Designer.cs">
       <DependentUpon>FormDaftar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLupaPassword.cs">
+    <Compile Include="View\FormLupaPassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLupaPassword.Designer.cs">
+    <Compile Include="View\FormLupaPassword.Designer.cs">
       <DependentUpon>FormLupaPassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMyOrder.cs">
+    <Compile Include="View\FormMyOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMyOrder.Designer.cs">
+    <Compile Include="View\FormMyOrder.Designer.cs">
       <DependentUpon>FormMyOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormNewOderSetrika.cs">
+    <Compile Include="View\FormNewOderSetrika.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormNewOderSetrika.Designer.cs">
+    <Compile Include="View\FormNewOderSetrika.Designer.cs">
       <DependentUpon>FormNewOderSetrika.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormNewOrderExpres.cs">
+    <Compile Include="View\FormNewOrderExpres.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormNewOrderExpres.Designer.cs">
+    <Compile Include="View\FormNewOrderExpres.Designer.cs">
       <DependentUpon>FormNewOrderExpres.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormNewOrderSepatu.cs">
+    <Compile Include="View\FormNewOrderSepatu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormNewOrderSepatu.Designer.cs">
+    <Compile Include="View\FormNewOrderSepatu.Designer.cs">
       <DependentUpon>FormNewOrderSepatu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormOrder.cs">
+    <Compile Include="View\FormOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOrder.Designer.cs">
+    <Compile Include="View\FormOrder.Designer.cs">
       <DependentUpon>FormOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPopUpProfile.cs">
+    <Compile Include="View\FormPopUpProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPopUpProfile.Designer.cs">
+    <Compile Include="View\FormPopUpProfile.Designer.cs">
       <DependentUpon>FormPopUpProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="FromNewOrderReguler.cs">
+    <Compile Include="View\FromNewOrderReguler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FromNewOrderReguler.Designer.cs">
+    <Compile Include="View\FromNewOrderReguler.Designer.cs">
       <DependentUpon>FromNewOrderReguler.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLayanan.cs">
+    <Compile Include="View\FormLayanan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLayanan.Designer.cs">
+    <Compile Include="View\FormLayanan.Designer.cs">
       <DependentUpon>FormLayanan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Password.cs" />
-    <Compile Include="pop_pembayaran.cs">
+    <Compile Include="Controller\Password.cs" />
+    <Compile Include="View\pop_pembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pop_pembayaran.Designer.cs">
+    <Compile Include="View\pop_pembayaran.Designer.cs">
       <DependentUpon>pop_pembayaran.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Controller\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
+    <EmbeddedResource Include="View\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3EditProfilecs.resx">
+    <EmbeddedResource Include="View\Form3EditProfilecs.resx">
       <DependentUpon>Form3EditProfilecs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAdmin.resx">
+    <EmbeddedResource Include="View\FormAdmin.resx">
       <DependentUpon>FormAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCheckOut.resx">
+    <EmbeddedResource Include="View\FormCheckOut.resx">
       <DependentUpon>FormCheckOut.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCustomers.resx">
+    <EmbeddedResource Include="View\FormCustomers.resx">
       <DependentUpon>FormCustomers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDaftar.resx">
+    <EmbeddedResource Include="View\FormDaftar.resx">
       <DependentUpon>FormDaftar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLupaPassword.resx">
+    <EmbeddedResource Include="View\FormLupaPassword.resx">
       <DependentUpon>FormLupaPassword.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMyOrder.resx">
+    <EmbeddedResource Include="View\FormMyOrder.resx">
       <DependentUpon>FormMyOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormNewOderSetrika.resx">
+    <EmbeddedResource Include="View\FormNewOderSetrika.resx">
       <DependentUpon>FormNewOderSetrika.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormNewOrderExpres.resx">
+    <EmbeddedResource Include="View\FormNewOrderExpres.resx">
       <DependentUpon>FormNewOrderExpres.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormNewOrderSepatu.resx">
+    <EmbeddedResource Include="View\FormNewOrderSepatu.resx">
       <DependentUpon>FormNewOrderSepatu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormOrder.resx">
+    <EmbeddedResource Include="View\FormOrder.resx">
       <DependentUpon>FormOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPopUpProfile.resx">
+    <EmbeddedResource Include="View\FormPopUpProfile.resx">
       <DependentUpon>FormPopUpProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FromNewOrderReguler.resx">
+    <EmbeddedResource Include="View\FromNewOrderReguler.resx">
       <DependentUpon>FromNewOrderReguler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLayanan.resx">
+    <EmbeddedResource Include="View\FormLayanan.resx">
       <DependentUpon>FormLayanan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pop_pembayaran.resx">
+    <EmbeddedResource Include="View\pop_pembayaran.resx">
       <DependentUpon>pop_pembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -414,6 +414,11 @@
     <None Include="Resources\Rectangle 21.png" />
     <None Include="Resources\Group 6-1.png" />
     <None Include="Resources\Group 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\controller\" />
+    <Folder Include="Model\Context\" />
+    <Folder Include="Model\Repository\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SpecFlow.3.9.74\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.3.9.74\build\SpecFlow.targets')" />
