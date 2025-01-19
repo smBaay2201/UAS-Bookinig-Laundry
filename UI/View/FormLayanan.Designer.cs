@@ -135,7 +135,7 @@
             this.guna2PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox15.TabIndex = 19;
             this.guna2PictureBox15.TabStop = false;
-            this.guna2PictureBox15.Click += new System.EventHandler(this.guna2PictureBox15_Click);
+   
             // 
             // guna2PictureBox14
             // 
@@ -148,7 +148,7 @@
             this.guna2PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox14.TabIndex = 20;
             this.guna2PictureBox14.TabStop = false;
-            this.guna2PictureBox14.Click += new System.EventHandler(this.guna2PictureBox14_Click);
+
             // 
             // pnlLayanan
             // 

@@ -150,7 +150,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(47, 51);
             this.guna2Button1.TabIndex = 2;
             this.guna2Button1.UseTransparentBackground = true;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+       
             // 
             // guna2ControlBox2
             // 
@@ -164,7 +164,7 @@
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(39, 36);
             this.guna2ControlBox2.TabIndex = 5;
-            this.guna2ControlBox2.Click += new System.EventHandler(this.guna2ControlBox2_Click);
+      
             // 
             // guna2ControlBox1
             // 
@@ -234,7 +234,7 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
-            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
+       
             // 
             // Form2
             // 

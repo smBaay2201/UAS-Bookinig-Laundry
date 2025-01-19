@@ -484,10 +484,8 @@ D:\Semester 3\bro\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 D:\Semester 3\bro\UI\obj\Debug\UI.csproj.Up2Date
 D:\Semester 3\bro\UI\obj\Debug\UI.exe
 D:\Semester 3\bro\UI\obj\Debug\UI.pdb
-<<<<<<< HEAD
 E:\Amikom\Semester 3\Pemroglanjut\uas\final project UI\UI\UI\bin\Debug\System.Data.SQLite.dll
 E:\Amikom\Semester 3\Pemroglanjut\uas\final project UI\UI\UI\bin\Debug\System.Data.SQLite.xml
-=======
 C:\Users\asus\Downloads\Laundry FP\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe.config
 C:\Users\asus\Downloads\Laundry FP\UAS-Bookinig-Laundry\UI\bin\Debug\UI.exe
 C:\Users\asus\Downloads\Laundry FP\UAS-Bookinig-Laundry\UI\bin\Debug\UI.pdb

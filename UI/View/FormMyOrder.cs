@@ -110,5 +110,12 @@ namespace UI
                 MessageBox.Show("Kesalahan saat memproses klik tabel: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnLayanan_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 Form = new Form2();
+            Form.ShowDialog();
+        }
     }
 }

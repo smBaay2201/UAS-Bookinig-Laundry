@@ -911,7 +911,7 @@
             // 
             // guna2PictureBox10
             // 
-            this.guna2PictureBox10.Image = global::UI.Properties.Resources.Pelanggan;
+            //this.guna2PictureBox10.Image = global::UI.Properties.Resources.Pelanggan;
             this.guna2PictureBox10.ImageRotate = 0F;
             this.guna2PictureBox10.Location = new System.Drawing.Point(125, 12);
             this.guna2PictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -974,7 +974,7 @@
             // 
             this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.Image = global::UI.Properties.Resources.hapus_user;
+            //this.guna2PictureBox4.Image = global::UI.Properties.Resources.hapus_user;
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Location = new System.Drawing.Point(627, 18);
             this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

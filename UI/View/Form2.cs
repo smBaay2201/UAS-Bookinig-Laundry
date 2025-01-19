@@ -19,15 +19,7 @@ namespace UI
            
         }
 
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox2_Click(object sender, EventArgs e)
-        {
-
-        }
+  
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
@@ -40,15 +32,8 @@ namespace UI
             Form.ShowDialog();
         } 
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-          
-        }
+        
+      
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {

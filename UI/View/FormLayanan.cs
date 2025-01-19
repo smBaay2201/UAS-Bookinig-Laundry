@@ -136,15 +136,6 @@ namespace UI
             Form.ShowDialog();
         }
 
-        private void guna2PictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox14_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void guna2PictureBox13_Click(object sender, EventArgs e)
         {
