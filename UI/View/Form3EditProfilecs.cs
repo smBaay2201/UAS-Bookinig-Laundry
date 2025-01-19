@@ -65,12 +65,14 @@ namespace UI
             }
 
             this.Hide();
-            FormPopUpProfile Form = new FormPopUpProfile();
-            Form.ShowDialog();
+
         }
 
-
-
-
+        private void btnLayanan_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 Form = new Form2();
+            Form.ShowDialog();
+        }
     }
 }

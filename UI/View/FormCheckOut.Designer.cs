@@ -41,7 +41,6 @@
             this.guna2PictureBox16 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox15 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
@@ -52,7 +51,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2PictureBox8
@@ -169,7 +167,6 @@
             this.panel1.Controls.Add(this.guna2PictureBox16);
             this.panel1.Controls.Add(this.guna2PictureBox13);
             this.panel1.Controls.Add(this.guna2PictureBox15);
-            this.panel1.Controls.Add(this.guna2PictureBox14);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -227,18 +224,6 @@
             this.guna2PictureBox15.TabIndex = 19;
             this.guna2PictureBox15.TabStop = false;
             // 
-            // guna2PictureBox14
-            // 
-            this.guna2PictureBox14.Image = global::UI.Properties.Resources.Shopping_Trolley;
-            this.guna2PictureBox14.ImageRotate = 0F;
-            this.guna2PictureBox14.Location = new System.Drawing.Point(12, 409);
-            this.guna2PictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2PictureBox14.Name = "guna2PictureBox14";
-            this.guna2PictureBox14.Size = new System.Drawing.Size(45, 34);
-            this.guna2PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox14.TabIndex = 20;
-            this.guna2PictureBox14.TabStop = false;
-            // 
             // FormCheckOut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -268,7 +253,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -286,6 +270,5 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox16;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox13;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox15;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox14;
     }
 }

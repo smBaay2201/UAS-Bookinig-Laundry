@@ -33,7 +33,6 @@
             this.guna2PictureBox16 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox15 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlLayanan = new Guna.UI2.WinForms.Guna2Panel();
             this.btnLayanan = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -54,7 +53,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.pnlLayanan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnLayanan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -76,7 +74,6 @@
             this.panel1.Controls.Add(this.guna2PictureBox16);
             this.panel1.Controls.Add(this.guna2PictureBox13);
             this.panel1.Controls.Add(this.guna2PictureBox15);
-            this.panel1.Controls.Add(this.guna2PictureBox14);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -135,20 +132,6 @@
             this.guna2PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox15.TabIndex = 19;
             this.guna2PictureBox15.TabStop = false;
-   
-            // 
-            // guna2PictureBox14
-            // 
-            this.guna2PictureBox14.Image = global::UI.Properties.Resources.Shopping_Trolley;
-            this.guna2PictureBox14.ImageRotate = 0F;
-            this.guna2PictureBox14.Location = new System.Drawing.Point(12, 409);
-            this.guna2PictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2PictureBox14.Name = "guna2PictureBox14";
-            this.guna2PictureBox14.Size = new System.Drawing.Size(45, 34);
-            this.guna2PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox14.TabIndex = 20;
-            this.guna2PictureBox14.TabStop = false;
-
             // 
             // pnlLayanan
             // 
@@ -239,7 +222,7 @@
             this.guna2ControlBox2.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox2.Location = new System.Drawing.Point(1119, 4);
-            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ControlBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(39, 36);
             this.guna2ControlBox2.TabIndex = 24;
@@ -252,7 +235,7 @@
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1165, 4);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(36, 36);
             this.guna2ControlBox1.TabIndex = 23;
@@ -299,7 +282,6 @@
             this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox11.TabIndex = 13;
             this.guna2PictureBox11.TabStop = false;
-         
             // 
             // guna2PictureBox10
             // 
@@ -312,7 +294,6 @@
             this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox10.TabIndex = 12;
             this.guna2PictureBox10.TabStop = false;
-           
             // 
             // guna2PictureBox9
             // 
@@ -325,7 +306,6 @@
             this.guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox9.TabIndex = 11;
             this.guna2PictureBox9.TabStop = false;
-            
             // 
             // guna2PictureBox8
             // 
@@ -338,7 +318,6 @@
             this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox8.TabIndex = 10;
             this.guna2PictureBox8.TabStop = false;
-           
             // 
             // guna2PictureBox7
             // 
@@ -351,7 +330,6 @@
             this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox7.TabIndex = 9;
             this.guna2PictureBox7.TabStop = false;
-            
             // 
             // FormLayanan
             // 
@@ -371,13 +349,11 @@
             this.Name = "FormLayanan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormLayanan";
-            
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
             this.pnlLayanan.ResumeLayout(false);
             this.pnlLayanan.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnLayanan)).EndInit();
@@ -407,7 +383,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox16;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox13;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox15;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox14;
         private Guna.UI2.WinForms.Guna2Panel pnlLayanan;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;

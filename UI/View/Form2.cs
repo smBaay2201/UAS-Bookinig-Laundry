@@ -70,5 +70,12 @@ namespace UI
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            
+            Form3EditProfilecs form = new Form3EditProfilecs();
+            form.ShowDialog();
+        }
     }
 }
